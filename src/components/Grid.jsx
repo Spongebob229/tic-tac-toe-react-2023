@@ -12,6 +12,9 @@ export default function Grid(props) {
           </button>
         </div>
       ))}
+     <h1>{props.res}</h1>
     </div>
+
+    
   );
 }
